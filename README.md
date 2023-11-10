@@ -1,1 +1,1 @@
-# pokemon-lite
+# pokemon-lite with JavaScript
