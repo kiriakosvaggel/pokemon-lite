@@ -55,20 +55,20 @@ class Pokemon {
     const damage = skill.damage; // to check how much is dmg
     opponent.health -= damage; // to reduce the dmg from the enemy's hp
 
+    // see if the opponent pokemon is alive (if else statement) -> is alive method
     if (opponent.isAlive()) {
       console.log(`${opponent.name} took the hit and is still conscious.`);
       console.log(`The battle: continuing`);
-    } else {
+    }
+    // else dead : opponent is no longer consiouc and this wins the game
+    else {
       console.log(`${opponent.name} is no longer conscious.`);
       console.log(`${this.name} wins the game!`);
       this.counter++; // Increase the win counter
     }
   }
 
-  // tatget the oppenet and takkkkkkkkkke awaz the damage from the hp
-  // see if the opponent pokemon is alive (if else sstatement) -> is alive method
-  // if alive : log out thaaaaaat the opponent took the hit and then some random message
-  // else dead : opponent is no longer consiouc and this wins the game
+  // if alive : log out that the opponent took the hit and then he cant continue the fight
 }
 
 const Pikatcu = new Pokemon("Pikachu", 35, [], 0);
@@ -126,10 +126,9 @@ console.log("--------------------------");
 
 console.log("---------------------------");
 
-//console.log(Pikatcu.isAlive());
-
 function battle(pokemon1, pokemon2) {
   console.log(`Battle between ${pokemon1.name} and ${pokemon2.name} begins!`);
+  //  a while loop, so while both pokemon are still alive they fight, when one is dead then stop
 
   while (pokemon1.isAlive() && pokemon2.isAlive()) {
     // Pokemon 1 attacks Pokemon 2
@@ -160,15 +159,9 @@ function battle(pokemon1, pokemon2) {
     `The battle between ${pokemon1.name} and ${pokemon2.name} has ended!`
   );
 }
-
+// let the battle begins
 battle(Pikatcu, Tododile);
 console.log(Tododile);
 console.log(Pikatcu);
 console.log("-----");
 battle(Golem, Gengar);
-
-// make zour fight here
-
-// Do this first: do a while loop, sssssssso while both pokemon are still alive thez fight, when one is dead thez      dont
-
-// extra : get user input to do attack
