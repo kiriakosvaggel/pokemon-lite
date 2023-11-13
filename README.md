@@ -1,6 +1,6 @@
 # Pokemon-Light with-javascript Example Project
 
-This example project serves as a practical guide to building a Pokemon battle simulator using JavaScript. It demonstrates the creation of a custom app for Pokemon gameplay, emphasizing the use of classes for an organized and modular structure.
+This example project serves as a practical guide to building a Pokemon battle simulator using JavaScript. It demonstrates the creation of a custom app for Pokemon game-play, emphasizing the use of classes for an organized and modular structure.
 
 ## How to install
 

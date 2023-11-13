@@ -1,5 +1,5 @@
 class Pokemon {
-  constructor(name, health, skills, counter) {
+  constructor(name, health) {
     this.name = name;
     this.health = health;
     this.skills = [];
@@ -16,17 +16,15 @@ class Pokemon {
   }
   changeForm(newForm) {
     this.form = newForm;
-    console.log(`${this.name} has transformed into its ${newForm} form.`);
+    // console.log(`${this.name} has transformed into its ${newForm} form.`);
   }
   learnAttackSkill(newSkill) {
     this.skills.push(newSkill);
-    console.log(`${this.name} has learn the skill ${newSkill.attack}`);
+    // console.log(`${this.name} has learn the skill ${newSkill.attack}`);
   }
 
   showStatus() {
     console.log(`Name: ${this.name}`);
-    // console.log(`Health: ${this.health}`);
-    // console.log(`Magic: ${this.magic}`);
     if (this.counter > 3) {
       console.log(`${this.name} has win the fight`);
     } else {
@@ -40,13 +38,12 @@ class Pokemon {
     } else {
       return false;
     }
-    // return this.health > 0;
   }
 
   attack(skillName, opponent) {
     const skill = this.skills.find((i) => i.name === skillName);
     if (!skill) {
-      console.log(`${this.name} doesnt know the "${skillName}" `);
+      console.log(`${this.name} doesn't know the "${skillName}" `);
     }
     console.log(
       `${this.name} is attacking with ${skill.name} on ${opponent.name}`
@@ -60,7 +57,7 @@ class Pokemon {
       console.log(`${opponent.name} took the hit and is still conscious.`);
       console.log(`The battle: continuing`);
     }
-    // else dead : opponent is no longer consiouc and this wins the game
+    // else dead : opponent is no longer conscious and this wins the game
     else {
       console.log(`${opponent.name} is no longer conscious.`);
       console.log(`${this.name} wins the game!`);
@@ -104,28 +101,17 @@ const recover = new AttackSkill("Recover", 30, "Heal");
 Pikatcu.learnAttackSkill(thunderbolt);
 
 Pikatcu.learnAttackSkill(recover);
-Pikatcu.showStatus();
-console.log("-----------------");
-console.log("-----------------");
 
-// evolvePokemon(Tododile, "Croconaw");
+evolvePokemon(Tododile, "Croconaw");
 Tododile.learnAttackSkill(fireball);
-Tododile.showStatus();
 
-console.log("----------------------");
 evolvePokemon(Golem, "Alohan-Golem");
 Golem.learnAttackSkill(earthquake);
-Golem.showStatus();
-console.log("--------------------------");
 
-console.log("---------------------------");
 evolvePokemon(Gengar, "Haunter");
 Gengar.learnAttackSkill(hypnosis);
-Gengar.showStatus();
-console.log("--------------------------");
 
-console.log("---------------------------");
-
+console.log();
 function battle(pokemon1, pokemon2) {
   console.log(`Battle between ${pokemon1.name} and ${pokemon2.name} begins!`);
   //  a while loop, so while both pokemon are still alive they fight, when one is dead then stop
@@ -162,6 +148,10 @@ function battle(pokemon1, pokemon2) {
 // let the battle begins
 battle(Pikatcu, Tododile);
 console.log(Tododile);
-console.log(Pikatcu);
 console.log("-----");
-battle(Golem, Gengar);
+console.log(Pikatcu);
+
+// console.log("         ");
+// battle(Golem, Gengar);
+// console.log(Golem);
+// console.log(Gengar);
