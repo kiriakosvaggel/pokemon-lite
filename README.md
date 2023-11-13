@@ -70,4 +70,4 @@ Your contributions are highly appreciated! If you encounter issues or have impro
 
 ## Project Status
 
-This project is a dynamic work in progress. While the current version of the simulator/fight is not final, we're actively working on its development. Stay tuned for exciting updates!
+This project is a dynamic work in progress. While the current version of the simulator/fight is not final, I am working  actively working on its development. Stay tuned for exciting updates!
