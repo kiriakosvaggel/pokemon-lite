@@ -46,7 +46,6 @@ Your contributions are highly appreciated! If you encounter issues or have impro
 
 - **Submit an issue:** Use the 'Issues' tab above to report any problems or suggest enhancements.
 - **Commit fixes:** If you're fixing an issue, reference the created issue in your commit message.
-- 
 ## Project Status
 
 This project is a dynamic work in progress. While the current version of the simulator/fight is not final, we're actively working on its development. Stay tuned for exciting updates!
