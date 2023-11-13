@@ -28,7 +28,19 @@ To experience the functionality of this project, follow these steps:
 
 1. Pokemon Class:
 
-- Initialize Pokemon with name, health, and skills:
+- Initialize Pokemon with name, health, and skills
+- Manage Pokemon attributes such as magic, form, and crit chance
+
+2. AttackSkill Class:
+
+- Define attack skills with name, damage, and attack type:
+
+3. Evolution and Skills:
+
+- Evolve Pokemon to new forms using evolvePokemon function
+
+4. Dynamic Battles:
+   -Simulate battles between Pokemon pairs with the battle function
 
 ## Customization
 
