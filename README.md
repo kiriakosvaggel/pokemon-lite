@@ -1,23 +1,52 @@
 # Pokemon-Light with-javascript Example Project
 
-## A functional Example project writeen in Javascript how to create Pokemon gameplay!
+This example project serves as a practical guide to building a Pokemon battle simulator using JavaScript. It demonstrates the creation of a custom app tailored for Pokemon gameplay, emphasizing the use of classes for an organized and modular structure.
 
-This project is an example that was built along a task creating an example of simulator game. Every part of this project is sample code which shows how to do the following!
+## How to install
 
-* Creat a custom custom app for battle simulation between pokemons
-* Working mostly with Classes
+To experience the functionality of this project, follow these steps:
 
-## How to install this example Pokemon/Lite project.
+1. **Clone this project:**
+    ```bash
+    git clone [project-repository-url]
+    ```
 
-The easiest way to see how this work is follow the steps.
-1. clone this project
-2. Set up a local repository
-3. Install npm
+2. **Set up a local repository:**
+    ```bash
+    cd [project-folder]
+    git init
+    ```
 
-## How to tweak this project , I'd encourage you to clone and rename this projet to use for your own purposes. It's good starter JavaScript
+3. **Install npm:**
+    ```bash
+    npm install
+    ```
 
-If you found an issue or would like to sumbit an imporovment to this project, please submit an issue using the issues above. If you would like to commit a fix, reference the issue you created!
+## Customization
 
-## Known issues (Work in progress)
- This project is still ongoing. The final version of this simulator/fight has not been completed yet. This is coming soon!
- 
+To adapt this project for your specific needs, consider the following steps:
+
+1. **Clone the project:**
+    ```bash
+    git clone [project-repository-url]
+    ```
+
+2. **Rename the project:**
+    ```bash
+    mv [old-project-name] [new-project-name]
+    ```
+
+3. **Starter JavaScript project:**
+    Utilize this project as a foundation for your JavaScript development.
+
+
+## Contribution
+
+Your contributions are highly appreciated! If you encounter issues or have improvements, please follow these steps:
+
+- **Submit an issue:** Use the 'Issues' tab above to report any problems or suggest enhancements.
+- **Commit fixes:** If you're fixing an issue, reference the created issue in your commit message.
+- 
+## Project Status
+
+This project is a dynamic work in progress. While the current version of the simulator/fight is not final, we're actively working on its development. Stay tuned for exciting updates!
